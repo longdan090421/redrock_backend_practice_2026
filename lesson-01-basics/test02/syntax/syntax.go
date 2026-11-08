@@ -44,7 +44,7 @@ func Describe(name string, age int) string {
 	// TODO: 用 fmt.Sprintf 拼出这句话。
 	// Sprintf 和 Printf 的格式化规则一样，但它返回字符串而不是打印。
 	// 字符串用 %s，整数用 %d。
-	return fmt.Sprintf("%s 今年 %d 岁", "小明", 18)
+	return fmt.Sprintf("%s 今年 %d 岁", name, age)
 }
 
 // MaxScore 是导出的常量，其他包可以用 syntax.MaxScore 读到它。
